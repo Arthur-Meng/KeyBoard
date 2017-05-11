@@ -1,0 +1,11 @@
+//对话框窗体大小及其屏幕坐标
+	CRect rectDlg;
+	//::GetWindowRect(AfxGetMainWnd()->m_hWnd, &rectDlg);
+	(this->GetDlgItem(IDC_JIZHUOMI_STATIC))->GetWindowRect(&rectDlg);
+	CString strDlg;
+	strDlg.Format(L"%d,%d,%d,%d", rectDlg.left, rectDlg.top, rectDlg.Width(), rectDlg.Height());
+	//MessageBox(strDlg);
+
+
+
+::PostMessage(::AfxGetApp()->GetMainWnd()->GetSafeHwnd(), WM_KEYDOWN, 'A', 0);

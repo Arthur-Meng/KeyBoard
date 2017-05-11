@@ -1,0 +1,6 @@
+﻿  KeyBoardDlg.cpp
+c:\users\arthur\desktop\keyboard\keyboard\keyboarddlg.cpp(100): warning C4244: “初始化”: 从“TX_REAL”转换到“float”，可能丢失数据
+c:\users\arthur\desktop\keyboard\keyboard\keyboarddlg.cpp(106): warning C4244: “初始化”: 从“LONG”转换到“float”，可能丢失数据
+c:\users\arthur\desktop\keyboard\keyboard\keyboarddlg.cpp(108): warning C4305: “=”: 从“double”到“float”截断
+  KeyBoard.vcxproj -> C:\Users\Arthur\Desktop\KeyBoard\Debug\KeyBoard.exe
+  KeyBoard.vcxproj -> C:\Users\Arthur\Desktop\KeyBoard\Debug\KeyBoard.pdb (Partial PDB)
